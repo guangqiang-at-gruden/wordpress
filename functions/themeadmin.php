@@ -58,43 +58,8 @@ fieldset legend{ cursor:pointer;  font-size:13px;  color:#FFF; background:#2683A
 .ads {color:#9a9a9a}
 </style>
 <div class="wrap">
-	<div id="icon-options-general" class="icon32"><br></div><h2>Themeidea</h2><br>	
-	<div id="themeidea_admin_ie_warning" class="themeidea_nodisplay updated fade"><p><strong> <?php _e('建议: 为了获得更好的体验，请不要使用IE浏览器.','themeidea') ?><span id="themeidea_admin_ie_warning_disable">Close [X]</span></strong></p></div>
-	<div class="ads">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font>Themeidea全球经典Wordpress主题聚合官方网站：【</font> <a href="http://themeidea.com" target="_blank">点击查看</a> 】|Themeidea旗下Wordpress教程网：【 <a href="http://iwilling.org" target="_blank">点击学习</a>】(如果您不想看到这些推荐内容,请联系我们为您关闭)</div>
-		<form method="post" action="options.php">
-		<?php settings_fields( 'themeidea-settings-group' ); ?>
-		<?php $options = get_option('themeidea_options'); ?>
-		<div id="themeidea_nav_list">
-			<div class="themeidea_inside">
-				<ul id="lu-tab-readme" class="list lu-tab-list">
-					<div class="themeidea_option_wrap">
-						<div class="themeidea_option_section">
-							<h2><?php _e('主题声明：','themeidea') ?></h2>
-						</div>
-						<div class="themeidea_helppage">
-							<p>友情提示：您正在使用的主题由Themeidea<a href="http://themeidea.com">全球经典Wordpress主题聚合</a>免费分享！</p>
-							<p>主题版权归原作者所有，如需商业用途，请联系作者购买正版，本主题仅供参考学习，请在下载24小时内自行删除</p><br/>
-							<p>Themeidea承接业务如下：</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Wordpress主题定制</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Wordpress主题二次开发</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Wordpress主题修改调试</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Wordpress主题汉化</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.网站托管</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.平面海报，界面，名片UI设计</p><br/>
-                            <p>价格主要看工作量以及困难程度，具体价格与站长沟通以后为准</p><br/>
-                            <p>联系站长：</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在线留言：【<a href="http://themeidea.com" target="_blank">点击查看</a>】</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新浪微博：【<a href="http://weibo.com/ronghuanweb" target="_blank">点击查看</a>】</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯微博：【<a href="http://t.qq.com/marvelstudio" target="_blank">点击查看</a>】</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：liuronghuanwen@gmail.com</p>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ：276181228</p>
-
-						</div>
-					</div><!-- .themeidea_option_wrap -->
-				</ul><!-- #lu-tab-readme -->
-			</div><!-- .themeidea_inside -->
-		</div><!-- #themeidea_nav_list -->
-	</form>
+	<div id="icon-options-general" class="icon32"><br></div><h2>ISHARE STUDIO</h2><br>
+	
 <div class="clearfix"></div>
 </div><!-- .wrap -->
 <?php } ?>
