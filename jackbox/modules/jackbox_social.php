@@ -174,80 +174,9 @@
 	</head>
 
     <body onLoad="startIt()">
-    	
-        <?php
-			
-			/* ************************** */
-			/* BEGIN SOCIAL BUTTON MARKUP */
-			/* ************************** */
-			
-			/* FACEBOOK */
-			$facebook = '<div id="facebook" class="container"><span id="facebook-mask"></span><div id="facebook-container"><div id="fb-root"></div><div class="fb-like" data-href="{urlToShare}" data-send="false" data-layout="box_count" data-show-faces="false" data-font="segoe ui"></div></div></div>';
-			
-			/* TWITTER */
-			$twitter = '<div id="twitter" class="container"><span id="twitter-mask"></span><a href="https://twitter.com/share" class="twitter-share-button" data-url="{twitterToShare}" data-count="none" data-text="{contentTitle}"></a></div></div>';
-			
-			/* GOOGLE PLUS */
-			$google = '<div id="google" class="container"><span id="google-mask"></span><div class="g-plusone" data-size="medium" data-annotation="none" data-href="{googleToShare}"></div></div>';
-			
-			/* PINTEREST */
-			$pinterest = '<div id="pinterest" class="container"><span id="pinterest-mask"></span><div class="absolute"><a href="http://pinterest.com/pin/create/button/?url={urlToShare}&media={imgPoster}&description={contentTitle}" class="pin-it-button" count-layout="none" target="_blank"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a></div></div>';
-			
-			/* ************************ */
-			/* END SOCIAL BUTTON MARKUP */
-			/* ************************ */
-			
-			
-			
-			////////////////////////////////////
-			// BEGIN DEV CODE, EDIT WITH CAUTION
-			////////////////////////////////////
-			
-			$social = "";
-			
-			if($useFacebook && isset($facebook)) $social .= $facebook;
-			if($useGoogle && isset($google)) $social .= $google;
-			if($usePinterest && isset($pinterest)) $social .= $pinterest;
-			if($useTwitter && isset($twitter)) $social .= $twitter;
-			
-			if($social != "") {
-			
-				if(isset($_GET["url"])) {
-					
-					$urls = $_GET["url"];
-					$social = str_replace("{twitterToShare}", $urls, $social);
-					$social = str_replace("{urlToShare}", urlencode($urls), $social);
-					$splits = explode("#/", $urls);
-						
-					if(count($splits) > 1) $urls = $splits[0] . "?url=" . $splits[1];
-					$social = str_replace("{googleToShare}", $urls, $social);
-					
-				}
-				if(isset($_GET["poster"])) {
-				
-					$social = str_replace("{imgPoster}", $_GET["poster"], $social);
-					
-				}
-				
-				if(isset($_GET["title"])) {
-					
-					$social = str_replace("{contentTitle}", strip_tags(urldecode($_GET["title"])), $social);
-					
-				}
-				
-				print $social;
-				
-			}
-			
-			if(!$useTwitter) $useTwitter = "0";
-			if(!$useGoogle) $useGoogle = "0";
-			if(!$usePinterest) $usePinterest = "0";
-			if(!$useFacebook) $useFacebook = "0";
-			
-			print '<script type="text/javascript">var useTwitter =' . $useTwitter . ', useGoogle=' . $useGoogle . ', usePinterest=' . $usePinterest . ', useFacebook=' . $useFacebook . ';</script>';
-        
-        ?>
-        
+        <div class="bdsharebuttonbox"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a hrf="#" class="bds_t163" data-cmd="t163" title="分享到网易微博"></a></div>
+        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=86326610.js?cdnversion='+~(-new Date()/36e5)];</script>
+
         <script type="text/javascript">
 			
 			var counter, leg, tMask, fMask, doc, bodies;
