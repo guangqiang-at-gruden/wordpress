@@ -1,0 +1,118 @@
+h3	{
+	color: #5A5A5A;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+#sidebar_manager	{
+	
+}
+
+#sidebar_manager .clear	{
+	clear: both;
+}
+
+#sidebar_manager .button	{
+	padding: 3px 10px;
+	border-radius: 99px;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	-o-border-radius: 99px;
+	line-height: 13px;
+	white-space: nowrap;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#sidebar_manager .button_primary	{
+	min-width: 80px;
+	text-align: center;
+	border-color: #298cba;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	background: url("images/button-grad.png") repeat-x left top #fafafa;
+}
+
+#sidebar_manager .button_primary:hover	{
+	border-color: #13455b;
+    color: #eaf2fa;
+}
+
+#sidebar_manager .button_primary:active	{
+	background: url("images/button-grad-active.png") repeat-x left top #21759b;
+	color: #eaf2fa;
+}
+
+#sidebar_manager .button_secondary	{
+	border: 1px solid #bbbbbb;
+	color: #464646;
+	text-shadow: 0 1px 0 #ffffff;
+	background: url('images/white-grad.png') repeat-x left top #fafafa;
+}
+
+#sidebar_manager .button_secondary:hover	{
+	border-color: #666666;
+	color: #000000;
+}
+
+#sidebar_manager .button_secondary:active	{
+	background: url("images/white-grad-active.png") repeat-x left top #eeeeee;
+}
+
+#sidebar_manager .button-primary	{
+
+}
+
+#sidebar_manager #sidebar_manager_add_wrapper	{
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#sidebar_manager #sidebar_manager_list_wrapper	{
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#sidebar_manager .new_sidebar_name	{
+	margin: 0 7px 0 0;
+}
+
+#sidebar_manager .sidebar_manager_list	{
+	
+	margin: 17px 0;
+}
+
+#sidebar_manager .sidebar_name	{
+	float: left;
+}
+
+#sidebar_manager .sidebar_manager_item	{
+	padding: 10px 0 10px 0;
+}
+
+#sidebar_manager .sidebar_manager_item_name	{
+}
+
+#sidebar_manager .sidebar_manager_item_button	{
+	float: left;
+}
+
+#sidebar_manager .sidebar_manager_item_button	{
+	margin: 0 0 0 7px;
+}
+
+#sidebar_manager .sidebar_manager_item_button:hover	{
+	cursor: pointer;
+}
+
+#sidebar_manager .sidebar_manager_item_button_rename	{
+	
+}
+
+#sidebar_manager .sidebar_manager_item_button_delete	{
+	
+}

@@ -1,0 +1,5 @@
+INSERT IGNORE INTO `XXXTABLENAMEXXX` (`name`, `value`, `namespace`) VALUES
+('sidebar_counter', '5', 'fsidebars'),
+('sidebar_counter', '5', 'fsidebars'),
+('1', 'Page FAQ', 'fsidebars'),
+('5', 'Sidemenu', 'fsidebars');

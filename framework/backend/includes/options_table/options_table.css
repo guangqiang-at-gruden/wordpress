@@ -1,0 +1,56 @@
+.options_table	{
+	margin-top: 0;
+	margin-bottom: 40px;
+	line-height: 20px;
+}
+.options_table th	{
+	padding: 20px 0 20px 20px;
+}
+.options_table td	{
+	padding: 20px 20px 20px 0;
+}
+
+.options_table tr	{
+	border-bottom: 1px solid #dddddd;
+}
+.options_table tr:last-child	{
+	border-bottom: none;
+}
+.options_table th label	{
+
+}
+
+
+
+.options_table .text	{
+	width: 300px;
+}
+
+.options_table .checkbox	{
+	margin: 0 5px 0 0;
+}
+
+.options_table .description	{
+	line-height: 20px;
+	color: #777777;
+	border: 1px solid #dddddd;
+	background: #fafafa;
+	padding: 4px 8px;
+	font-family: Georgia, serif;
+	font-size: 11px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.theme_options_content_item_option input	{
+	width: 90%;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #dfdfdf;
+	box-shadow: inset 0px 3px 5px #eeeeee;
+	-moz-box-shadow: inset 0px 3px 5px #eeeeee;
+	-webkit-box-shadow: inset 0px 3px 5px #eeeeee;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}

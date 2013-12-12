@@ -1,0 +1,529 @@
+/* ----------------------------------------------------------- */
+/*                GREEN THEME - #A6AC78                        */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/*                       COLOURS                               */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+a, a:visited { 
+   color: #A6AC78; 
+}
+a:hover { 
+   background-color: #A6AC78;
+   color:#fff;
+}
+
+.customButton a{
+ color: #000; 
+}
+
+.dropCap1.highlight, .dropCap2.highlight, .dropCap3.highlight, .dropCap4.highlight{
+	color: #A6AC78;
+}
+
+select:focus, input:focus, textarea:focus{
+  border: 1px solid #A6AC78;
+}
+
+input[type="submit"]:focus{
+  border: none;
+}
+
+/* #ISOTOPE
+================================================== */
+.gallery .element:hover {
+    border-color: #A6AC78;
+}
+
+.portfolio .element:hover {
+    border-top: 5px solid #A6AC78;
+}
+
+.portfolio .element:hover > .portfolioText{
+    background-color: #A6AC78;
+    border-color: #A6AC78;
+}
+
+.isotopeFilters ul > li:hover > a, .isotopeFilters ul > li.selected > a{
+    background-color: #A6AC78;
+}
+
+.isotopeFilters li a:active, .isotopeFilters li a.selected {
+  background-color: #A6AC78;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  border-left: 10px solid #A6AC78;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.button.dark:hover {
+ background-color: #A6AC78;
+}
+
+.button.dark.reverted, .button.light.reverted, .button.regular.reverted {
+ background-color: #A6AC78;
+}
+
+.button.light:hover {
+ background-color: #A6AC78;
+}
+
+.button.light.bordered:hover{
+  background-color: #A6AC78;
+  border-color: #A6AC78;
+}
+
+.button.dark.bordered:hover{
+  background-color: #A6AC78;
+  border-color: #A6AC78;
+}
+
+.button.dark.bordered.reverted{
+  background-color: #A6AC78;
+   border: 1px solid #A6AC78;
+}
+
+.button.small.regular:hover, .button.normal.regular:hover{
+ background-color: #A6AC78;	
+}
+
+.button.regular.reverted:hover {
+  background-color: #aaa;
+}
+
+
+.button a{
+ color: #000;
+}
+.button a.orange, .button a.highlight, .customButton a.highlight{
+  color: #A6AC78;
+}
+
+.button a.highlight:hover, .customButton a.highlight:hover{
+	border-color: #A6AC78;
+}
+
+.button a.orange:hover, .button a.orange.selected{
+  border-color: #A6AC78;
+}
+
+.pricingTable.highlighted header{
+  background-color: #A6AC78;
+}
+
+.pricingTable.highlighted .cost{
+ color: #A6AC78;
+}
+
+.pricingTable.highlighted .decimal{
+ color: #A6AC78;
+}
+
+.sidemenu li:hover, .sidemenu li.current {
+ background-color: #A6AC78;
+}
+
+.sidemenu li:last-child:hover:before, .sidemenu li:last-child.current:before {
+  background: #A6AC78;
+}
+
+.sidemenu li:hover + li:after, .sidemenu li.current + li:after    {
+  background: #A6AC78;
+}
+
+.sidemenu li:hover:after, .sidemenu li.current:after {
+   background: #A6AC78;
+}
+
+.faq .question:hover, .faq .question.selected{
+	color: #A6AC78;
+}
+
+.sitemap a {
+   color: #A6AC78;
+}
+
+.sitemap a:hover {
+   border-bottom: 1px solid #A6AC78;
+}
+
+.comparison header.highlighted{
+  background-color: #A6AC78;
+}
+
+.sidebar .tweet_list .tweet_time a:hover{
+  color: #A6AC78;
+}
+
+.sidebar .tweet_list li a{
+  color: #A6AC78;
+}
+
+.sidebar .tweet_list li a:hover{
+  background: #A6AC78;
+}
+
+.textWidget ul li:hover .borderHover{
+	border-color: #A6AC78;
+	
+}
+
+.textWidget ul li .borderHover{
+	border: 5px solid rgba(89, 178, 0, 0);
+}
+
+#tags li:hover{
+  background: #A6AC78;
+}
+
+
+/* #SCREEN
+================================================== */
+.highlighted{ 
+   background: #A6AC78;
+}
+
+.highlight {
+    color: #A6AC78;
+}
+
+::selection {
+    background: #A6AC78;
+}
+
+::-moz-selection {
+    background: #A6AC78;
+}
+
+.arrow-down {
+    border-top: 6px solid #A6AC78;
+}
+
+.ddsmoothmenu ul li a.selected{ 
+    background: #A6AC78; 
+}
+
+.ddsmoothmenu ul li.current-menu-parent a, 
+.ddsmoothmenu ul li.current-menu-item a,
+.ddsmoothmenu ul li.current-menu-ancestor a{ 
+ background: #A6AC78;
+}
+
+.ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a.current{
+    background: #A6AC78;
+}
+
+.ddsmoothmenu ul li ul li a{
+    background: #A6AC78;
+}
+
+.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{
+    background: #A6AC78;
+}
+
+
+.ddsmoothmenu ul li ul li a:hover {
+    color: #A6AC78;
+	background: #fff;
+}
+
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a.current{ 
+   color: #A6AC78;
+   background: #fff;
+}
+
+.ddsmoothmenu ul li ul li.current-menu-parent > a, 
+.ddsmoothmenu ul li ul li.current-menu-item > a,
+.ddsmoothmenu ul li ul li.current-menu-ancestor > a{  
+   color: #A6AC78;
+   background: #fff;
+}
+
+.breadCrumbs a{
+    color: #000;
+  
+  	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+.breadCrumbs a:hover{
+	background: transparent;
+    color: #A6AC78;
+}
+
+.pagination li:hover {
+  background-color: #A6AC78;
+}
+
+.pagination li:active {
+  background-color: #A6AC78;
+}
+
+.pagination li.selected {
+  background-color: #A6AC78;
+}
+
+.sectionHeading {
+    background-color: #A6AC78;
+}
+
+.portfolioDetails a {
+    color: #A6AC78;
+}
+
+.portfolioDetails a:hover {
+    background-color: #A6AC78;
+}
+
+.ui-tabs .ui-tabs-panel a:hover {
+  color: #A6AC78;
+}
+
+.tweet_list li a{
+   color: #A6AC78;
+}
+
+.tweet_list .tweet_time a:hover{
+  color: #A6AC78;
+}
+
+.jackbox-modal a{
+    color: #A6AC78;
+}
+
+.tipsy-inner {
+    background-color: #A6AC78;
+}
+
+/* #BLOG
+================================================== */
+.blog.large .blogDate {
+    background-color: #A6AC78;
+}
+
+.blog.large .excerptText h2:hover{
+  color: #A6AC78;
+}
+
+.blog.medium .blogDate {
+    background-color: #A6AC78;
+}
+
+.blog.medium .excerptText h2:hover {
+    color: #A6AC78;
+}
+
+.blog.post .blogDate {
+    background-color: #A6AC78;
+}
+
+.comment.author .commentHeader h3{
+	color: #A6AC78;
+}
+
+.comment.author img {
+  border-color: #A6AC78;
+}
+
+.comment .reply .report a:hover{
+  background: #A6AC78;
+}
+
+.searchform .searchbutton:hover {
+  border-color: #A6AC78;
+}
+
+.blogCategories ul li:hover  a{
+  color: #A6AC78;
+}
+
+/* #CONTACT FORM
+================================================== */
+#contact input.submit:hover, #commentform input[type="submit"]:hover, .wpcf7-submit:hover {
+    background: #A6AC78;
+	border-color: #A6AC78;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselWrapper.small .portfolio li:hover {
+    border-top: 5px solid #A6AC78;
+}
+
+.carouselWrapper.small .portfolio li:hover > article{
+    background-color: #A6AC78;
+    border-color: #A6AC78;
+}
+
+.carouselWrapper .portfolio li:hover {
+    border-top: 5px solid #A6AC78;
+}
+
+.carouselWrapper .portfolio li:hover > article{
+    background-color: #A6AC78;
+    border-color: #A6AC78;
+}
+
+.carouselWrapper.small .blog li .blogDate {
+    background-color: #A6AC78;
+}
+
+.carouselWrapper.small .blog li article h4:hover {
+    color: #A6AC78;
+}
+
+.carouselWrapper .blog li .blogDate {
+    background-color: #A6AC78;
+}
+
+.carouselWrapper .blog li article h4:hover {
+    color: #A6AC78;
+}
+
+
+/* ----------------------------------------------------------- */
+/*                        ICONS                                */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+.dropCap1{
+  background: transparent url('../../images/icons/green/dropcap1.png') no-repeat;
+}
+
+.dropCap3{
+  background: transparent url('../../images/icons/green/dropcap3.png') no-repeat;
+}
+
+
+/* #REVOLUTION BANNER
+================================================== */
+.tp-bullets.simplebullets .bullet {
+    background: url('../../images/icons/green/sliderBullet.png') no-repeat top left;
+}
+
+.tp-bannertimer {
+    background: url('../../images/icons/green/timer.png');
+}
+
+/* #FLEX SLIDER
+================================================== */
+.flex-control-paging li a {
+	background: url('../../images/icons/green/sliderBullet.png') no-repeat top left;
+}
+
+
+/* #ISOTOPE
+================================================== */
+.isotopeFilters li {
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center 22px;
+}
+
+.portfolio .element:hover > .portfolioText:after{
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center bottom;
+}
+
+
+/* #MINI SLIDER
+================================================== */
+.miniNavBtn {
+  background: url('../../images/icons/green/miniSliderNav.png') 0 0 no-repeat;
+}
+
+.miniNavSelected{
+	background-position: 0 -10px;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  background: #f8f8f8 url('../../images/icons/green/arrowRight.png') no-repeat 0px center;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.pricingTable.highlighted header:after {
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center top;
+}
+
+.button.readmore, .customButton.readmore { background: url('../../images/icons/green/arrowSmall.png') no-repeat center right; margin-right: 7px;}
+.button.back, .customButton.back { background: url('../../images/icons/green/back.png') no-repeat center right; margin-right: 10px;}
+
+.sidemenu li .arrow {
+  background: url('../../images/icons/green/arrowLeft.png') no-repeat 0 center;
+}
+
+.sidebar .tweet_avatar {
+  background: url('../../images/icons/green/twitterSidebar.png') no-repeat 0 3px;
+}
+
+
+/* #SCREEN
+================================================== */
+header .logo {
+}
+
+.sectionHeading:after {
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center top;
+}
+
+.buttonSliderClose{
+	background: url('../../images/icons/green/buttonsSliderClose.png') no-repeat left top;
+}
+
+.tipsy-arrow {
+    background: url('../../images/icons/green/arrowDown.png') no-repeat top left;
+}
+
+/* #BLOG
+================================================== */
+.comment .arrow{
+   background: url('../../images/icons/green/arrowDown.png') no-repeat  top left;
+}
+
+.searchform .searchbutton {
+  background: url('../../images/icons/green/searchIcon.png') no-repeat -1px -1px;
+}
+
+.blogCategories ul li .icon{
+   background: url('../../images/icons/green/arrowSquare.png') no-repeat left top;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselPrevious {
+    background: url('../../images/icons/green/previousArrow.png') no-repeat;
+}
+
+.carouselNext {
+    background: url('../../images/icons/green/nextArrow.png') no-repeat;
+}
+
+.carouselWrapper.small .portfolio li:hover > article:after{
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center bottom;
+}
+
+.carouselWrapper .portfolio li:hover > article:after{
+  background: url('../../images/icons/green/arrowDown.png') no-repeat center bottom;
+}
+
+
+
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.btn_import, .btn_export { display:none;}
+h2.nav-tab-wrapper	{
+	margin: 0 0 0 3px;
+}
+#freshslider .fs_slide_box	{ margin:10px 0 10px 0;}
+
+#freshslider .fs_slide_preview	{ margin:20px 0 0 0; width:100%;}
+
+#freshslider .column-name	{ padding:10px 10px 20px 10px;}
+#freshslider #slides select, #freshslider #slides input	{ margin:10px 0 0 0;}
+#freshslider #slides input	{ padding:6px;}
+#freshslider #slides .button	{
+	padding: 3px 8px;
+}
+#freshslider select	{ padding:4px 2px 4px 2px; height:24px;}
+#freshslider #fs_head_order	{ width:12%;}
+#freshslider #slides #fs_image_url	{ width:99%; padding-left:26px; background:url(images/image_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #slides #fs_link_url	{ width:79%; padding-left:26px; background:url(images/link_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #slides #fs_title	{ width:79%; padding-left:26px; background:url(images/title.png) no-repeat 5px 5px #FFF; margin-bottom:10px;}
+#freshslider #fs_description	{ width:99%;}
+#freshslider .input_img_wrapper	{ padding: 0 0 0 105px;}
+#freshslider .add_media_slidermanager	{ float: left; margin-top: 13px;}
+
+
+#freshslider #fs_link_type, #freshslider #fs_transition	{ width:20%;}
+#freshslider #fs_order_select	{ width:100%;}
+#freshslider .img_remove	{ margin:10px 0 0 0;}
+
+#fs_save	{float:right;}
+#freshslider #fs_add_slide, #freshslider #fs_save	{ margin:10px 0 10px 0;}
+
+
+/* NEW CSS */
+
+#freshslider #slides	{
+	display: block;
+}
+
+#freshslider #settings	{
+	display: none;
+}
+
+#slider_preview {
+	width:100%;
+	height:100%;
+	
+}
+#preview{ display:none;}
+#slider_preview_url {display:none;}

@@ -1,0 +1,220 @@
+.clear	{
+	clear: both;
+}
+
+#screen-meta	{
+	display: none;
+}
+
+/* Rounded corners*/
+.theme_options_content_menu_item:first-child	{
+	border-radius: 3px 0 0 0;
+	-webkit-radius: 3px 0 0 0;
+	-moz-border-radius: 3px 0 0 0;
+}
+/*.theme_options_content_menu_item:last-child	{
+	border-radius: 0 0 0 3px;
+	-webkit-border-radius: 0 0 0 3px;
+	-moz-border-radius: 0 0 0 3px;
+}*/
+
+
+
+/* Content */
+
+#theme_options_content_wrapper	{
+	margin: 20px 0 0 3px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#theme_options_content	{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	background: url('../options/images/theme_options_bg.png') repeat-y -60px top;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+#theme_options_content_left_wrapper	{
+	width: 140px;
+	margin: 0 -140px 0 0;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+#theme_options_content_right_wrapper	{
+	width: 100%;
+	float: right;
+	position: relative;
+	z-index: 1;
+}
+#theme_options_content_left	{
+	
+}
+#theme_options_content_right	{
+	margin: 0 0 0 140px;
+}
+.theme_options_content_menu_item	{
+	color: #999999;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 12px;
+	
+	margin: 0 0 0 -1px;
+}
+.theme_options_content_menu_item a	{
+	text-decoration: none;
+	display: block;
+	padding: 11px 25px 11px 25px;
+	text-shadow: 0 1px 0 #ffffff;
+    outline-width: 0;
+    outline: none;
+}
+
+.theme_options_content_menu_item a, .theme_options_content_menu_item a:focus, .theme_options_content_menu_item a:active	{
+	color: #666666;
+}
+
+
+.theme_options_content_menu_item a:hover	{
+	color: #444444;
+}
+.theme_options_content_menu_item:hover	{
+	color: #333333;
+	background: url('../options/images/menu_bg_hover.png') repeat-y 1px 0;
+}
+#theme_options .theme_options_content_menu_item_active	{
+	background: rgb(85,164,237); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(85,164,237,1) 0%, rgba(50,111,212,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,164,237,1)), color-stop(100%,rgba(50,111,212,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(85,164,237,1) 0%,rgba(50,111,212,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(85,164,237,1) 0%,rgba(50,111,212,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(85,164,237,1) 0%,rgba(50,111,212,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(85,164,237,1) 0%,rgba(50,111,212,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55a4ed', endColorstr='#326fd4',GradientType=0 ); /* IE6-9 */
+			
+	border-top: none;
+	border-bottom: none;
+	border-right: none;	
+}
+
+#theme_options .theme_options_content_menu_item_active:first-child	{ /* FIRST ITEM HACK */
+	margin-top: -1px;
+}
+
+#theme_options .theme_options_content_menu_item_active:first-child a	{ /* FIRST ITEM HACK */
+	padding-top: 12px;
+	background-position: 14px -88px;
+}
+
+.theme_options_content_menu_item_active a	{
+	color: #ffffff;
+	text-shadow: 0 -1px 0 #333333;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+}
+.theme_options_content_menu_item_active a:hover	{
+	color: #ffffff;
+}
+.theme_options_content_menu_item_active a:active, .theme_options_content_menu_item_active a:focus	{
+	color: #ffffff;
+}
+.theme_options_content_item	{
+	border-bottom: 1px solid #dfdfdf;
+	padding: 0 0 20px 0;
+}
+
+
+.theme_options_content_menu_item a	{
+	background-position: 14px 10px;
+	background-repeat: no-repeat;
+}
+
+.theme_options_content_menu_item_active a	{
+	background-position: 14px -91px;
+}
+
+/*
+.theme_options_menu_homepage	{
+	background-image: url('../options/images/icons/home.png');
+}
+
+
+.theme_options_menu_header	{
+	background-image: url('../options/images/icons/gear.png');
+}
+
+.theme_options_menu_skins	{
+	background-image: url('../options/images/icons/skins.png');
+}
+
+.theme_options_menu_footer	{
+	background-image: url('../options/images/icons/footer.png');
+}
+
+.theme_options_menu_templates	{
+	background-image: url('../options/images/icons/header.png');
+}
+
+.theme_options_menu_translation	{
+	background-image: url('../options/images/icons/translation.png');
+}
+
+.theme_options_menu_customcode	{
+	background-image: url('../options/images/icons/customcode.png');
+}
+
+.theme_options_menu_slider	{
+	background-image: url('../options/images/icons/pictures-stack.png');
+}
+
+.theme_options_menu_settings	{
+	background-image: url('../options/images/icons/lifebuoy.png');
+}*/
+
+#theme_options_footer	{
+	background: rgb(249,249,249); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(236,236,236,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(236,236,236,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(236,236,236,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+	
+	border: 1px solid #dfdfdf;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px; 
+}
+.theme_options_save	{
+	margin: 20px 20px 15px 20px;
+	float: right;
+	cursor: pointer;
+}
+#theme_options_versions	{
+	float: left;
+	color: #c0c0c0;
+	font-size: 9px;
+	line-height: 15px;
+	text-shadow: 0 2px 0 #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 14px 0 0 15px;
+}
+
+#theme_options .color-input 	{
+	cursor: pointer !important;
+}
+
+
+
+

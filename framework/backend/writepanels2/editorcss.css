@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+#shortcodes_list_wrapper	{
+	position: absolute;
+	left: 400px;
+	top: 400px;
+	opacity:0;
+	display: none;
+	visibility: hidden;
+}
+
+#shortcodes_list_wrapper ul	{
+	border: 1px solid #dddddd;
+}
+
+#shortcodes_list	{
+	font-size: 12px;
+	line-height: 24px;
+	list-style:none;
+	margin: 0;
+	position: relative;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+#shortcodes_list li	{
+	margin: 0;
+}
+
+#shortcodes_list a	{
+	display: block;
+	padding: 0 25px 0 10px;
+	text-decoration: none;
+	color: #333333;
+	background-color: #ebeaeb;
+}
+
+#shortcodes_list a:hover	{
+	background-color: #f5f5f5;
+	cursor: default;
+}
+
+#shortcodes_list .top-menu-item	{
+}
+
+#shortcodes_list .top-menu-item-a	{
+	width: 100px;
+}
+
+#shortcodes_list .sub-menu {
+	position:absolute;
+	top:auto;
+	margin: -25px 0 0 135px;
+}
+
+#shortcodes_list .sub-menu a	{
+	width: 100px;
+}
+
+#shortcodes_list .has-sub-menu-a	{
+	background-image: url('images/sub_menu_arrow.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+/* HANDLES THE OPENING AND CLOSING OF SUBMENUS */
+ul#shortcodes_list li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+ul#shortcodes_list li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block; }
+
+ul#shortcodes_list li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none; }
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+ul#shortcodes_list li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+

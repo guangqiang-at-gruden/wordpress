@@ -1,0 +1,1 @@
+<?php fOpt::Set("permission_test","writable_autoupdate", "8cd086d0410a8e9deda1031a8226cab7"); ?>

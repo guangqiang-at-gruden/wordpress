@@ -1,0 +1,530 @@
+/* ----------------------------------------------------------- */
+/*                STRONG GREEN THEME - #59b200                 */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/*                       COLOURS                               */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+a, a:visited { 
+   color: #59b200; 
+}
+a:hover { 
+   background-color: #59b200;
+   color:#fff;
+}
+
+.customButton a{
+ color: #000; 
+}
+
+.dropCap1.highlight, .dropCap2.highlight, .dropCap3.highlight, .dropCap4.highlight{
+	color: #59b200;
+}
+
+select:focus, input:focus, textarea:focus{
+  border: 1px solid #59b200;
+}
+
+input[type="submit"]:focus{
+  border: none;
+}
+
+/* #ISOTOPE
+================================================== */
+.gallery .element:hover {
+    border-color: #59b200;
+}
+
+.portfolio .element:hover {
+    border-top: 5px solid #59b200;
+}
+
+.portfolio .element:hover > .portfolioText{
+    background-color: #59b200;
+    border-color: #59b200;
+}
+
+.isotopeFilters ul > li:hover > a, .isotopeFilters ul > li.selected > a{
+    background-color: #59b200;
+}
+
+.isotopeFilters li a:active, .isotopeFilters li a.selected {
+  background-color: #59b200;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  border-left: 10px solid #59b200;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.button.dark:hover {
+ background-color: #59b200;
+}
+
+.button.dark.reverted, .button.light.reverted, .button.regular.reverted {
+ background-color: #59b200;
+}
+
+.button.light:hover {
+ background-color: #59b200;
+}
+
+.button.light.bordered:hover{
+  background-color: #59b200;
+  border-color: #59b200;
+}
+
+.button.dark.bordered:hover{
+  background-color: #59b200;
+  border-color: #59b200;
+}
+
+.button.dark.bordered.reverted{
+  background-color: #59b200;
+   border: 1px solid #59b200;
+}
+
+.button.small.regular:hover, .button.normal.regular:hover{
+ background-color: #59b200;	
+}
+
+.button.regular.reverted:hover {
+  background-color: #aaa;
+}
+
+
+.button a{
+ color: #000;
+}
+.button a.orange, .button a.highlight, .customButton a.highlight{
+  color: #59b200;
+}
+
+.button a.highlight:hover, .customButton a.highlight:hover{
+	border-color: #59b200;
+}
+
+.button a.orange:hover, .button a.orange.selected{
+  border-color: #59b200;
+}
+
+.pricingTable.highlighted header{
+  background-color: #59b200;
+}
+
+.pricingTable.highlighted .cost{
+ color: #59b200;
+}
+
+.pricingTable.highlighted .decimal{
+ color: #59b200;
+}
+
+.sidemenu li:hover, .sidemenu li.current {
+ background-color: #59b200;
+}
+
+.sidemenu li:last-child:hover:before, .sidemenu li:last-child.current:before {
+  background: #59b200;
+}
+
+.sidemenu li:hover + li:after, .sidemenu li.current + li:after    {
+  background: #59b200;
+}
+
+.sidemenu li:hover:after, .sidemenu li.current:after {
+   background: #59b200;
+}
+
+.faq .question:hover, .faq .question.selected{
+	color: #59b200;
+}
+
+.sitemap a {
+   color: #59b200;
+}
+
+.sitemap a:hover {
+   border-bottom: 1px solid #59b200;
+}
+
+.comparison header.highlighted{
+  background-color: #59b200;
+}
+
+.sidebar .tweet_list .tweet_time a:hover{
+  color: #59b200;
+}
+
+.sidebar .tweet_list li a{
+  color: #59b200;
+}
+
+.sidebar .tweet_list li a:hover{
+  background: #59b200;
+}
+
+.textWidget ul li:hover .borderHover{
+	border-color: #59b200;
+	
+}
+
+.textWidget ul li .borderHover{
+	border: 5px solid rgba(89, 178, 0, 0);
+}
+
+#tags li:hover{
+  background: #59b200;
+}
+
+
+/* #SCREEN
+================================================== */
+.highlighted{ 
+   background: #59b200;
+}
+
+.highlight {
+    color: #59b200;
+}
+
+::selection {
+    background: #59b200;
+}
+
+::-moz-selection {
+    background: #59b200;
+}
+
+.arrow-down {
+    border-top: 6px solid #59b200;
+}
+
+.ddsmoothmenu ul li a.selected{ 
+    background: #59b200; 
+}
+
+.ddsmoothmenu ul li.current-menu-parent a, 
+.ddsmoothmenu ul li.current-menu-item a,
+.ddsmoothmenu ul li.current-menu-ancestor a{ 
+ background: #59b200;
+}
+
+.ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a.current{
+    background: #59b200;
+}
+
+.ddsmoothmenu ul li ul li a{
+    background: #59b200;
+}
+
+.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{
+    background: #59b200;
+}
+
+
+.ddsmoothmenu ul li ul li a:hover {
+    color: #59b200;
+	background: #fff;
+}
+
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a.current{ 
+   color: #59b200;
+   background: #fff;
+}
+
+.ddsmoothmenu ul li ul li.current-menu-parent > a, 
+.ddsmoothmenu ul li ul li.current-menu-item > a,
+.ddsmoothmenu ul li ul li.current-menu-ancestor > a{  
+   color: #59b200;
+   background: #fff;
+}
+
+.breadCrumbs a{
+    color: #000;
+  
+  	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+.breadCrumbs a:hover{
+	background: transparent;
+    color: #59b200;
+}
+
+.pagination li:hover {
+  background-color: #59b200;
+}
+
+.pagination li:active {
+  background-color: #59b200;
+}
+
+.pagination li.selected {
+  background-color: #59b200;
+}
+
+.sectionHeading {
+    background-color: #59b200;
+}
+
+.portfolioDetails a {
+    color: #59b200;
+}
+
+.portfolioDetails a:hover {
+    background-color: #59b200;
+}
+
+.ui-tabs .ui-tabs-panel a:hover {
+  color: #59b200;
+}
+
+.tweet_list li a{
+   color: #59b200;
+}
+
+.tweet_list .tweet_time a:hover{
+  color: #59b200;
+}
+
+.jackbox-modal a{
+    color: #59b200;
+}
+
+.tipsy-inner {
+    background-color: #59b200;
+}
+
+/* #BLOG
+================================================== */
+.blog.large .blogDate {
+    background-color: #59b200;
+}
+
+.blog.large .excerptText h2:hover{
+  color: #59b200;
+}
+
+.blog.medium .blogDate {
+    background-color: #59b200;
+}
+
+.blog.medium .excerptText h2:hover {
+    color: #59b200;
+}
+
+.blog.post .blogDate {
+    background-color: #59b200;
+}
+
+.comment.author .commentHeader h3{
+	color: #59b200;
+}
+
+.comment.author img {
+  border-color: #59b200;
+}
+
+.comment .reply .report a:hover{
+  background: #59b200;
+}
+
+.searchform .searchbutton:hover {
+  border-color: #59b200;
+}
+
+.blogCategories ul li:hover  a{
+  color: #59b200;
+}
+
+/* #CONTACT FORM
+================================================== */
+#contact input.submit:hover, #commentform input[type="submit"]:hover, .wpcf7-submit:hover {
+    background: #59b200;
+	border-color: #59b200;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselWrapper.small .portfolio li:hover {
+    border-top: 5px solid #59b200;
+}
+
+.carouselWrapper.small .portfolio li:hover > article{
+    background-color: #59b200;
+    border-color: #59b200;
+}
+
+.carouselWrapper .portfolio li:hover {
+    border-top: 5px solid #59b200;
+}
+
+.carouselWrapper .portfolio li:hover > article{
+    background-color: #59b200;
+    border-color: #59b200;
+}
+
+.carouselWrapper.small .blog li .blogDate {
+    background-color: #59b200;
+}
+
+.carouselWrapper.small .blog li article h4:hover {
+    color: #59b200;
+}
+
+.carouselWrapper .blog li .blogDate {
+    background-color: #59b200;
+}
+
+.carouselWrapper .blog li article h4:hover {
+    color: #59b200;
+}
+
+
+/* ----------------------------------------------------------- */
+/*                        ICONS                                */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+.dropCap1{
+  background: transparent url('../../images/icons/stronggreen/dropcap1.png') no-repeat;
+}
+
+.dropCap3{
+  background: transparent url('../../images/icons/stronggreen/dropcap3.png') no-repeat;
+}
+
+
+/* #REVOLUTION BANNER
+================================================== */
+.tp-bullets.simplebullets .bullet {
+    background: url('../../images/icons/stronggreen/sliderBullet.png') no-repeat top left;
+}
+
+.tp-bannertimer {
+    background: url('../../images/icons/stronggreen/timer.png');
+}
+
+
+/* #FLEX SLIDER
+================================================== */
+.flex-control-paging li a {
+	background: url('../../images/icons/stronggreen/sliderBullet.png') no-repeat top left;
+}
+
+
+/* #ISOTOPE
+================================================== */
+.isotopeFilters li {
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center 22px;
+}
+
+.portfolio .element:hover > .portfolioText:after{
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center bottom;
+}
+
+
+/* #MINI SLIDER
+================================================== */
+.miniNavBtn {
+  background: url('../../images/icons/stronggreen/miniSliderNav.png') 0 0 no-repeat;
+}
+
+.miniNavSelected{
+	background-position: 0 -10px;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  background: #f8f8f8 url('../../images/icons/stronggreen/arrowRight.png') no-repeat 0px center;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.pricingTable.highlighted header:after {
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center top;
+}
+
+.button.readmore, .customButton.readmore { background: url('../../images/icons/stronggreen/arrowSmall.png') no-repeat center right; margin-right: 7px;}
+.button.back, .customButton.back { background: url('../../images/icons/stronggreen/back.png') no-repeat center right; margin-right: 10px;}
+
+.sidemenu li .arrow {
+  background: url('../../images/icons/stronggreen/arrowLeft.png') no-repeat 0 center;
+}
+
+.sidebar .tweet_avatar {
+  background: url('../../images/icons/stronggreen/twitterSidebar.png') no-repeat 0 3px;
+}
+
+
+/* #SCREEN
+================================================== */
+header .logo {
+}
+
+.sectionHeading:after {
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center top;
+}
+
+.buttonSliderClose{
+	background: url('../../images/icons/stronggreen/buttonsSliderClose.png') no-repeat left top;
+}
+
+.tipsy-arrow {
+    background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat top left;
+}
+
+/* #BLOG
+================================================== */
+.comment .arrow{
+   background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat  top left;
+}
+
+.searchform .searchbutton {
+  background: url('../../images/icons/stronggreen/searchIcon.png') no-repeat -1px -1px;
+}
+
+.blogCategories ul li .icon{
+   background: url('../../images/icons/stronggreen/arrowSquare.png') no-repeat left top;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselPrevious {
+    background: url('../../images/icons/stronggreen/previousArrow.png') no-repeat;
+}
+
+.carouselNext {
+    background: url('../../images/icons/stronggreen/nextArrow.png') no-repeat;
+}
+
+.carouselWrapper.small .portfolio li:hover > article:after{
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center bottom;
+}
+
+.carouselWrapper .portfolio li:hover > article:after{
+  background: url('../../images/icons/stronggreen/arrowDown.png') no-repeat center bottom;
+}
+
+
+
+

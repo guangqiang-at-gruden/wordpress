@@ -1,0 +1,624 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TYPES OF CHANGE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A Added
+C Copied
+D Deleted
+M Modified
+R Renamed
+T have their type (mode) changed
+U Unmerged
+X Unknown
+B have had their pairing Broken
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.3 - Aug 13, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Twitter component - you now need to insert your Twitter API key in the Template Builder module
+   Fixed - TinyMCE no longer formats links into a relative path
+   Fixed - Template Builder now works in WP 3.6
+
+Changed Files
+~~~~~~~~~~~~~
+M       changelog.txt
+M       css/layout.css
+M       framework/backend/pagebuilder/index.php
+M       framework/backend/pagebuilder/script.js
+M       framework/engine/functions/freshizer.php
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-icons_222222_256x240.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-icons_2e83ff_256x240.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-icons_454545_256x240.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-icons_888888_256x240.png
+D       framework/extern/jquery_ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png
+D       framework/extern/jquery_ui/css/smoothness/jquery-ui-1.9.2.custom.css
+D       framework/extern/jquery_ui/css/smoothness/jquery-ui-1.9.2.custom.min.css
+D       framework/extern/jquery_ui/index.html
+D       framework/extern/jquery_ui/js/jquery-1.8.3.js
+D       framework/extern/jquery_ui/js/jquery-ui-1.9.2.custom.js
+D       framework/extern/jquery_ui/js/jquery-ui-1.9.2.custom.min.js
+M       functions.php
+M       printers/components/twitter.php
+M       style.css
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.2 - Jul 25, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - You can now disable Page on Home Page
+   Fixed - Featured Posts, the first item was not showing
+   Fixed - New Twitter Widget, you now need to insert your own Twitter API key in order to use it
+   Fixed - Comment Form Translation in Theme Options
+   Fixed - Site Preferences, changing background image on tag, author and archive pages is now possible 
+Improved - Call to Action, an option to turn on/off target="_blank" was added
+
+Changed Files
+~~~~~~~~~~~~~
+M       changelog.txt
+M       comments.php
+M       framework/backend/options/data.php
+M       framework/engine/functions/templater.php
+M       framework/engine/widgets/twitter.php
+A       framework/libs/commentForm.php
+A       framework/libs/ffGFonts.php
+M       framework/libs/fonts/ffGFonts.php
+M       framework/libs/postFeeder.php
+A       framework/libs/twitterAuth.php
+M       framework/libs/twitterFeeder.php
+M       functions.php
+M       index.php
+M       printers/adefault.php
+M       printers/components/callToAction.php
+M       printers/components_models/callToAction.php
+M       style.css
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.1 - May 2, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Person Module from Template Builder didn't work when you didn't fill in the social networks info
+   Fixed - Portfolio Single -> Similar Posts had the same title and image from one particular post
+   Fixed - PHP notice shown when wp debug is turned on and you tried to insert vimeo as a featured video
+Improved - All remaining Google Fonts added
+Improved - Ability to upload and use your own fonts
+Improved - Better UI for Theme Options -> Fonts
+
+Changed Files
+~~~~~~~~~~~~~
+framework/backend/options/view.php
+framework/backend/pagebuilder/atemplate_managing.php
+framework/deploy/themeOptions.php
+framework/libs/ffGFonts.php
+framework/libs/fonts/ffGFonts.php
+framework/libs/fonts/fontsAlpha.txt
+framework/libs/fonts/fontsPopularity.txt
+framework/libs/fonts/wpAdmin.js
+framework/libs/mediaInserter.php
+framework/libs/revSliderConnector.php
+framework/loadfirst/zhooks.php
+functions.php
+install/basic/installBasic.php
+printers/adefault.php
+printers/components_models/person.php
+printers/components_models/pricing.php
+style.css
+templates/single-portfolio/similar.php
+templates/slider/slider.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.0 - Mar 25, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Images inserted directly into the post editor are now responsive using the "scale-with-grid" class
+   Fixed - Clickable title option in Site Preferences is now working
+   Fixed - Word "Illustration" removed when using paginated portfolio
+   Fixed - Word "All" can now be translated for portfolio filter
+   Fixed - Title attribute for menu no longer prints directly into the menu in plaintext
+   Fixed - Footer A can now be disabled
+   Fixed - Re-assigning menu in one of the theme locations now works as it should
+Improved - Full and Basic Demo Installations v2.0
+
+
+Changed Files
+~~~~~~~~~~~~~
+changelog.txt
+css/layout.css
+footer.php
+framework/backend/options/data.php
+framework/backend/options/view.php
+framework/backend/pagebuilder/atemplate_managing.php
+framework/backend/writepanels2/data.php
+framework/backend/writepanels2/editor_custom_script.php
+framework/demo/themeOptions-DEMO.php
+framework/deploy/themeOptions.php
+framework/engine/functions/templater.php
+framework/loadfirst/aaCategoryOptionsStore.php
+framework/loadfirst/installdata/db_dump.frs
+framework/loadfirst/installdata/db_tables.frs
+functions.php
+header.php
+images/icons/blue/arrowDown.psd
+images/icons/blue/arrowLeft.psd
+images/icons/blue/arrowRight.psd
+images/icons/blue/arrowSmall.psd
+images/icons/blue/arrowSquare.psd
+images/icons/blue/back.psd
+images/icons/blue/buttonsSliderClose.psd
+images/icons/blue/dropcap1.psd
+images/icons/blue/dropcap3.psd
+images/icons/blue/logo.psd
+images/icons/blue/miniSliderNav.psd
+images/icons/blue/nextArrow.psd
+images/icons/blue/previousArrow.psd
+images/icons/blue/searchIcon.psd
+images/icons/blue/sliderBullet.psd
+images/icons/blue/timer.psd
+images/icons/blue/twitterSidebar.psd
+images/icons/brown/arrowDown.psd
+images/icons/brown/arrowLeft.psd
+images/icons/brown/arrowRight.psd
+images/icons/brown/arrowSmall.psd
+images/icons/brown/arrowSquare.psd
+images/icons/brown/back.psd
+images/icons/brown/buttonsSliderClose.psd
+images/icons/brown/dropcap1.psd
+images/icons/brown/dropcap3.psd
+images/icons/brown/logo.psd
+images/icons/brown/miniSliderNav.psd
+images/icons/brown/nextArrow.psd
+images/icons/brown/previousArrow.psd
+images/icons/brown/searchIcon.psd
+images/icons/brown/sliderBullet.psd
+images/icons/brown/timer.psd
+images/icons/brown/twitterSidebar.psd
+images/icons/darkred/.DS_Store
+images/icons/darkred/arrowDown.psd
+images/icons/darkred/arrowLeft.psd
+images/icons/darkred/arrowRight.psd
+images/icons/darkred/arrowSmall.psd
+images/icons/darkred/arrowSquare.psd
+images/icons/darkred/back.psd
+images/icons/darkred/buttonsSliderClose.psd
+images/icons/darkred/dropcap1.psd
+images/icons/darkred/dropcap3.psd
+images/icons/darkred/logo.psd
+images/icons/darkred/miniSliderNav.psd
+images/icons/darkred/nextArrow.psd
+images/icons/darkred/previousArrow.psd
+images/icons/darkred/searchIcon.psd
+images/icons/darkred/sliderBullet.psd
+images/icons/darkred/timer.psd
+images/icons/darkred/twitterSidebar.psd
+images/icons/green/.DS_Store
+images/icons/green/arrowDown.psd
+images/icons/green/arrowLeft.psd
+images/icons/green/arrowRight.psd
+images/icons/green/arrowSmall.psd
+images/icons/green/arrowSquare.psd
+images/icons/green/back.psd
+images/icons/green/buttonsSliderClose.psd
+images/icons/green/dropcap1.psd
+images/icons/green/dropcap3.psd
+images/icons/green/logo.psd
+images/icons/green/miniSliderNav.psd
+images/icons/green/nextArrow.psd
+images/icons/green/previousArrow.psd
+images/icons/green/searchIcon.psd
+images/icons/green/sliderBullet.psd
+images/icons/green/timer.psd
+images/icons/green/twitterSidebar.psd
+images/icons/grey/arrowDown.psd
+images/icons/grey/arrowLeft.psd
+images/icons/grey/arrowRight.psd
+images/icons/grey/arrowSmall.psd
+images/icons/grey/arrowSquare.psd
+images/icons/grey/back.psd
+images/icons/grey/buttonsSliderClose.psd
+images/icons/grey/dropcap1.psd
+images/icons/grey/dropcap3.psd
+images/icons/grey/logo.psd
+images/icons/grey/miniSliderNav.psd
+images/icons/grey/nextArrow.psd
+images/icons/grey/previousArrow.psd
+images/icons/grey/searchIcon.psd
+images/icons/grey/sliderBullet.psd
+images/icons/grey/timer.psd
+images/icons/grey/twitterSidebar.psd
+images/icons/orange/arrowDown.psd
+images/icons/orange/arrowLeft.psd
+images/icons/orange/arrowRight.psd
+images/icons/orange/arrowSmall.psd
+images/icons/orange/arrowSquare.psd
+images/icons/orange/back.psd
+images/icons/orange/buttonsSliderClose.psd
+images/icons/orange/dropcap1.psd
+images/icons/orange/dropcap3.psd
+images/icons/orange/logo.psd
+images/icons/orange/miniSliderNav.psd
+images/icons/orange/nextArrow.psd
+images/icons/orange/previousArrow.psd
+images/icons/orange/searchIcon.psd
+images/icons/orange/sliderBullet.psd
+images/icons/orange/timer.psd
+images/icons/orange/twitterSidebar.psd
+images/icons/red/arrowDown.psd
+images/icons/red/arrowLeft.psd
+images/icons/red/arrowRight.psd
+images/icons/red/arrowSmall.psd
+images/icons/red/arrowSquare.psd
+images/icons/red/back.psd
+images/icons/red/buttonsSliderClose.psd
+images/icons/red/dropcap1.psd
+images/icons/red/dropcap3.psd
+images/icons/red/logo.psd
+images/icons/red/miniSliderNav.psd
+images/icons/red/nextArrow.psd
+images/icons/red/previousArrow.psd
+images/icons/red/searchIcon.psd
+images/icons/red/sliderBullet.psd
+images/icons/red/timer.psd
+images/icons/red/twitterSidebar.psd
+images/icons/strongblue/arrowDown.psd
+images/icons/strongblue/arrowLeft.psd
+images/icons/strongblue/arrowRight.psd
+images/icons/strongblue/arrowSmall.psd
+images/icons/strongblue/arrowSquare.psd
+images/icons/strongblue/back.psd
+images/icons/strongblue/buttonsSliderClose.psd
+images/icons/strongblue/dropcap1.psd
+images/icons/strongblue/dropcap3.psd
+images/icons/strongblue/logo.psd
+images/icons/strongblue/miniSliderNav.psd
+images/icons/strongblue/nextArrow.psd
+images/icons/strongblue/previousArrow.psd
+images/icons/strongblue/searchIcon.psd
+images/icons/strongblue/sliderBullet.psd
+images/icons/strongblue/timer.psd
+images/icons/strongblue/twitterSidebar.psd
+images/icons/stronggreen/arrowDown.psd
+images/icons/stronggreen/arrowLeft.psd
+images/icons/stronggreen/arrowRight.psd
+images/icons/stronggreen/arrowSmall.psd
+images/icons/stronggreen/arrowSquare.psd
+images/icons/stronggreen/back.psd
+images/icons/stronggreen/buttonsSliderClose.psd
+images/icons/stronggreen/dropcap1.psd
+images/icons/stronggreen/dropcap3.psd
+images/icons/stronggreen/logo.psd
+images/icons/stronggreen/miniSliderNav.psd
+images/icons/stronggreen/nextArrow.psd
+images/icons/stronggreen/previousArrow.psd
+images/icons/stronggreen/searchIcon.psd
+images/icons/stronggreen/sliderBullet.psd
+images/icons/stronggreen/timer.psd
+images/icons/stronggreen/twitterSidebar.psd
+images/icons/turquoise/arrowDown.psd
+images/icons/turquoise/arrowLeft.psd
+images/icons/turquoise/arrowRight.psd
+images/icons/turquoise/arrowSmall.psd
+images/icons/turquoise/arrowSquare.psd
+images/icons/turquoise/back.psd
+images/icons/turquoise/buttonsSliderClose.psd
+images/icons/turquoise/dropcap1.psd
+images/icons/turquoise/dropcap3.psd
+images/icons/turquoise/logo.psd
+images/icons/turquoise/miniSliderNav.psd
+images/icons/turquoise/nextArrow.psd
+images/icons/turquoise/previousArrow.psd
+images/icons/turquoise/searchIcon.psd
+images/icons/turquoise/sliderBullet.psd
+images/icons/turquoise/timer.psd
+images/icons/turquoise/twitterSidebar.psd
+images/pb_default/big.jpg
+images/pb_default/crom.jpg
+images/pb_default/gap.jpg
+images/pb_default/gk.jpg
+images/pb_default/imperio.jpg
+images/services/offer/1.png
+images/services/offer/2.png
+images/services/offer/3.png
+images/services/offer/4.png
+images/slider_default/12.jpg
+images/slider_default/13.jpg
+images/slider_default/22.jpg
+images/slider_default/23.jpg
+images/slider_default/31.jpg
+images/slider_default/32.jpg
+images/slider_default/41.jpg
+images/slider_default/51.jpg
+images/slider_default/61.jpg
+images/slider_default/creativejuice1.png
+images/slider_default/disqus.png
+images/slider_default/elements.png
+images/slider_default/finger_left_white.png
+images/slider_default/for.png
+images/slider_default/great_deal.png
+images/slider_default/ipad.png
+images/slider_default/iphone.png
+images/slider_default/isotope.png
+images/slider_default/jackbox.png
+images/slider_default/large.jpg
+images/slider_default/large2.jpg
+images/slider_default/large3.jpg
+images/slider_default/large4.jpg
+images/slider_default/looking.png
+images/slider_default/mailchimp.png
+images/slider_default/mobilefriendly.png
+images/slider_default/monitor.png
+images/slider_default/p1.jpg
+images/slider_default/p10.jpg
+images/slider_default/p11.jpg
+images/slider_default/p12.jpg
+images/slider_default/p2.jpg
+images/slider_default/p3.jpg
+images/slider_default/p4.jpg
+images/slider_default/p5.jpg
+images/slider_default/p6.jpg
+images/slider_default/p7.jpg
+images/slider_default/p8.jpg
+images/slider_default/p9.jpg
+images/slider_default/price_tag1.png
+images/slider_default/responsive.png
+images/slider_default/responsivetext.png
+images/slider_default/revo_slider.png
+images/slider_default/revtransparent.png
+images/slider_default/scary.png
+images/slider_default/social_tool.png
+images/slider_default/wehavethe1.png
+images/slider_default/youre.png
+images/sliders/big_slider/1.jpg
+images/sliders/big_slider/2.jpg
+images/sliders/big_slider/3.jpg
+index.php
+install/basic/installBasic.php
+install/data/data-categories.php
+install/data/data-images.php
+install/data/data-menus.php
+install/data/data-metas.php
+install/data/data-posts.php
+install/data/data-tags.php
+install/data/data-tax-metas.php
+install/data/data-widgets.php
+install/data/dataInstall.php
+install/data/lorem.txt
+install/ffGetByTitle.php
+install/images/1.jpg
+install/images/2.jpg
+install/images/3.jpg
+install/install.php
+install/js-switch-to-theme-install.js
+install/options/data/db_all_default.frs
+install/options/data/db_pagebuilder.frs
+install/options/data/db_pb_exp_basic.frs
+install/options/data/db_sidebars.frs
+install/options/data/dp_pb_exp.frs
+install/options/data/tables.frs
+install/options/install.php
+install/options/installPB-basic.php
+install/options/installPB.php
+install/plugins/class-tgm-plugin-activation.php
+install/plugins/install.php
+install/plugins/js-plugins-install-1.js
+install/plugins/js-plugins-install-2.js
+install/plugins/js-plugins-install-3.js
+install/plugins/js-plugins-install-4.js
+install/plugins/plugins-install-class.php
+install/revslider/install.php
+install/revslider/revslider.frs
+install/revslider/revslider.zip
+install/slashRremover.php
+install/to/fullInstalParts.php
+install/to/iframe_template.htm
+install/to/themeInstall.php
+js/wiseguys.min.js
+plugins/autoinstall.php
+plugins/autoinstall1.js
+plugins/autoinstall2.js
+plugins/autoinstall3.js
+plugins/autoinstall4.js
+plugins/class-tgm-plugin-activation.php
+plugins/plugins.php
+plugins/revslider.zip
+printers/adefault.php
+printers/menus/navigation.php
+single-portfolio.php
+style.css
+templates/portfolio/portfolio-filterable-3.php
+templates/single-portfolio/single-fullwidth.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.7 - Mar 9, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Name duplicate of the background sections in write panels
+   Fixed - Custom CSS and JS now includes after the default CSS, not before
+   Fixed - Page gallery align bug
+
+Changed Files
+~~~~~~~~~~~~~
+css/layout.css
+framework/backend/options/data.php
+framework/backend/writepanels2/data.php
+framework/backend/writepanels2/metaBoxManager.php
+functions.php
+header.php
+js/wiseguys.min.js
+style.css
+templates/page/page-gallery.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.6 - Feb 28, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Get In Touch widget threw error when empty
+   Fixed - Top Navigation bad behavior
+Improved - Ability to show/hide the post date in Site Preferences
+
+Changed Files
+~~~~~~~~~~~~~
+framework/engine/widgets/getInTouch.php
+framework/loadfirst/aaCategoryOptionsStore.php
+js/wiseguys.min.js
+printers/adefault.php
+style.css
+templates/blog/blog-large.php
+templates/blog/blog-medium.php
+templates/single-blog/single.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.5 - Feb 28, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Disable Footer A / Footer B
+   Fixed - Comments template missing on Pages
+   Fixed - TinyMCE in Template Builder for WordPress versions other than English
+Improved - Title & Alt tags settings for images
+Improved - One-Click Demo Install
+ Removed - Full pricing option from pricing table in Template Builder
+
+Changed Files
+~~~~~~~~~~~~~
+css/layout.css
+footer.php
+framework/libs/gallery/gallery.php
+framework/loadfirst/installdata/db_dump.frs
+framework/loadfirst/zhooks.php
+functions.php
+plugins/autoinstall.php
+plugins/autoinstall1.js
+plugins/autoinstall2.js
+plugins/autoinstall3.js
+printers/adefault.php
+printers/components/box_with_image.php
+printers/components/image.php
+printers/components/pricing.php
+printers/components/references.php
+printers/components_models/employees.php
+printers/components_models/featuredPosts.php
+printers/components_models/featuredWorks.php
+printers/components_models/person.php
+printers/components_models/references.php
+printers/components_models/slider.php
+printers/components_models/textWithImage.php
+printers/post.php
+style.css
+templates/page/comments.php
+templates/page/page-1.php
+templates/page/page-2.php
+templates/page/page-gallery.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4 - Feb 27, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Bad redirect before uploading to media library
+   Fixed - Shortcode Generator missing when you have WordPress in languages other than English
+   Fixed - Tiny MCE in Template Builder didn't work when you had WordPress in languages other than English
+   Fixed - If the Top Navigation was empty, there was JS error
+Improved - Custom Sidebar option added to Pages, Posts and Categories
+
+Changed Files
+~~~~~~~~~~~~~
+framework/backend/slidermanager/data-view.php
+framework/backend/writepanels2/blank.js
+framework/backend/writepanels2/data.php
+framework/backend/writepanels2/editor_custom_script.php
+framework/backend/writepanels2/metaBoxManager.php
+framework/backend/writepanels2/script.js
+framework/loadfirst/zsidebar.php
+functions.php
+header.php
+js/wiseguys.min.js
+printers/adefault.php
+style.css
+templates/page/page-2.php
+templates/page/page-contact.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.3 - Feb 25, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Everything
+
+Changed Files
+~~~~~~~~~~~~~
+A whole lot of them, this is not a production release yet so we will
+skip the file-list this time
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.2 - Feb 24, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Everything
+
+Changed Files
+~~~~~~~~~~~~~
+A whole lot of them, this is not a production release yet so we will
+skip the file-list this time
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.1 - Feb 23, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Everything
+
+Changed Files
+~~~~~~~~~~~~~
+A whole lot of them, this is not a production release yet so we will
+skip the file-list this time
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.0 - Feb 22, 2013
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Nothing
+     New - Everything
+Improved - Everything
+ Removed - Nothing
+
+Changed Files
+~~~~~~~~~~~~~
+none
+

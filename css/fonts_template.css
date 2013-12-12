@@ -1,0 +1,79 @@
+/*
+Font loading is solved in
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family= ...
+... |&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese' type='text/css' media='all' />
+*/
+
+/*
+Font classes
+*/
+
+/* Body text */
+body, #tags li a, .button.regular {
+    /*font-family: text;*/
+    /*font-weight: text;*/
+    /*font-style: text;*/
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .sectionHeading, #tagLine h1, .ui-tabs .ui-tabs-nav li a, #contact input.submit, #commentform input[type="submit"], .wpcf7-submit, .carouselWrapper.small .blog li .blogDate p,.carouselWrapper .blog li .blogDate p, .blog.large .blogDate p, .blog.medium .blogDate p, .blog.post .blogDate p, .commentHeader .number, .button, .pricingTable .recurrence {
+    /*font-family: headings;*/
+    /*font-weight: headings;*/
+    /*font-style: headings;*/
+}
+
+/* Drop caps */
+.dropCap1, .dropCap2, .dropCap3, .dropCap4{
+    /*font-family: dropcaps;*/
+    /*font-weight: dropcaps;*/
+    /*font-style: dropcaps;*/
+}
+
+/* Menu */
+.ddsmoothmenu, .ddsmoothmenu ul li ul li a{
+    /*font-family: menu;*/
+    /*font-weight: menu;*/
+    /*font-style: menu;*/
+}
+
+/* Page header title */
+.pageTitle {
+    /*font-family: pagetitle;*/
+    /*font-weight: pagetitle;*/
+    /*font-style: pagetitle;*/
+}
+
+/* Portfolio single next/previous nav */
+.projectNav > ul > li{
+    /*font-family: blogpreviousnext;*/
+    /*font-weight: blogpreviousnext;*/
+    /*font-style: blogpreviousnext;*/
+}
+
+/* Custom buttons */
+.customButtons .button, .customButton{
+    /*font-family: button;*/
+    /*font-weight: button;*/
+    /*font-style: button;*/
+}
+
+/* sidemenu */
+.sidemenu li a{
+    /*font-family: sidemenu;*/
+    /*font-weight: sidemenu;*/
+    /*font-style: sidemenu;*/
+}
+
+/* FAQ question */
+.faq .question{
+    /*font-family: faq;*/
+    /*font-weight: faq;*/
+    /*font-style: faq;*/
+}
+
+/* Pricing tables numbers */
+.pricingTable .cost, .pricingTable .decimal{
+    /*font-family: pricing;*/
+    /*font-weight: pricing;*/
+    /*font-style: pricing;*/
+}

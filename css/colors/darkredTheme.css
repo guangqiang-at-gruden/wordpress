@@ -1,0 +1,529 @@
+/* ----------------------------------------------------------- */
+/*                DARK RED THEME - #AB1A25                     */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/*                       COLOURS                               */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+a, a:visited { 
+   color: #AB1A25; 
+}
+a:hover { 
+   background-color: #AB1A25;
+   color:#fff;
+}
+
+.customButton a{
+ color: #000; 
+}
+
+.dropCap1.highlight, .dropCap2.highlight, .dropCap3.highlight, .dropCap4.highlight{
+	color: #AB1A25;
+}
+
+select:focus, input:focus, textarea:focus{
+  border: 1px solid #AB1A25;
+}
+
+input[type="submit"]:focus{
+  border: none;
+}
+
+/* #ISOTOPE
+================================================== */
+.gallery .element:hover {
+    border-color: #AB1A25;
+}
+
+.portfolio .element:hover {
+    border-top: 5px solid #AB1A25;
+}
+
+.portfolio .element:hover > .portfolioText{
+    background-color: #AB1A25;
+    border-color: #AB1A25;
+}
+
+.isotopeFilters ul > li:hover > a, .isotopeFilters ul > li.selected > a{
+    background-color: #AB1A25;
+}
+
+.isotopeFilters li a:active, .isotopeFilters li a.selected {
+  background-color: #AB1A25;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  border-left: 10px solid #AB1A25;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.button.dark:hover {
+ background-color: #AB1A25;
+}
+
+.button.dark.reverted, .button.light.reverted, .button.regular.reverted {
+ background-color: #AB1A25;
+}
+
+.button.light:hover {
+ background-color: #AB1A25;
+}
+
+.button.light.bordered:hover{
+  background-color: #AB1A25;
+  border-color: #AB1A25;
+}
+
+.button.dark.bordered:hover{
+  background-color: #AB1A25;
+  border-color: #AB1A25;
+}
+
+.button.dark.bordered.reverted{
+  background-color: #AB1A25;
+   border: 1px solid #AB1A25;
+}
+
+.button.small.regular:hover, .button.normal.regular:hover{
+ background-color: #AB1A25;	
+}
+
+.button.regular.reverted:hover {
+  background-color: #aaa;
+}
+
+
+.button a{
+ color: #000;
+}
+.button a.orange, .button a.highlight, .customButton a.highlight{
+  color: #AB1A25;
+}
+
+.button a.highlight:hover, .customButton a.highlight:hover{
+	border-color: #AB1A25;
+}
+
+.button a.orange:hover, .button a.orange.selected{
+  border-color: #AB1A25;
+}
+
+.pricingTable.highlighted header{
+  background-color: #AB1A25;
+}
+
+.pricingTable.highlighted .cost{
+ color: #AB1A25;
+}
+
+.pricingTable.highlighted .decimal{
+ color: #AB1A25;
+}
+
+.sidemenu li:hover, .sidemenu li.current {
+ background-color: #AB1A25;
+}
+
+.sidemenu li:last-child:hover:before, .sidemenu li:last-child.current:before {
+  background: #AB1A25;
+}
+
+.sidemenu li:hover + li:after, .sidemenu li.current + li:after    {
+  background: #AB1A25;
+}
+
+.sidemenu li:hover:after, .sidemenu li.current:after {
+   background: #AB1A25;
+}
+
+.faq .question:hover, .faq .question.selected{
+	color: #AB1A25;
+}
+
+.sitemap a {
+   color: #AB1A25;
+}
+
+.sitemap a:hover {
+   border-bottom: 1px solid #AB1A25;
+}
+
+.comparison header.highlighted{
+  background-color: #AB1A25;
+}
+
+.sidebar .tweet_list .tweet_time a:hover{
+  color: #AB1A25;
+}
+
+.sidebar .tweet_list li a{
+  color: #AB1A25;
+}
+
+.sidebar .tweet_list li a:hover{
+  background: #AB1A25;
+}
+
+.textWidget ul li:hover .borderHover{
+	border-color: #AB1A25;
+	
+}
+
+.textWidget ul li .borderHover{
+	border: 5px solid rgba(252, 3, 165, 0);
+}
+
+#tags li:hover{
+  background: #AB1A25;
+}
+
+
+/* #SCREEN
+================================================== */
+.highlighted{ 
+   background: #AB1A25;
+}
+
+.highlight {
+    color: #AB1A25;
+}
+
+::selection {
+    background: #AB1A25;
+}
+
+::-moz-selection {
+    background: #AB1A25;
+}
+
+.arrow-down {
+    border-top: 6px solid #AB1A25;
+}
+
+.ddsmoothmenu ul li a.selected{ 
+    background: #AB1A25; 
+}
+
+.ddsmoothmenu ul li.current-menu-parent a, 
+.ddsmoothmenu ul li.current-menu-item a,
+.ddsmoothmenu ul li.current-menu-ancestor a{ 
+ background: #AB1A25;
+}
+
+.ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a.current{
+    background: #AB1A25;
+}
+
+.ddsmoothmenu ul li ul li a{
+    background: #AB1A25;
+}
+
+.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{
+    background: #AB1A25;
+}
+
+
+.ddsmoothmenu ul li ul li a:hover {
+    color: #AB1A25;
+	background: #fff;
+}
+
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a.current{ 
+   color: #AB1A25;
+   background: #fff;
+}
+
+.ddsmoothmenu ul li ul li.current-menu-parent > a, 
+.ddsmoothmenu ul li ul li.current-menu-item > a,
+.ddsmoothmenu ul li ul li.current-menu-ancestor > a{   
+   color: #AB1A25;
+   background: #fff;
+}
+
+.breadCrumbs a{
+    color: #000;
+  
+  	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+.breadCrumbs a:hover{
+	background: transparent;
+    color: #AB1A25;
+}
+
+.pagination li:hover {
+  background-color: #AB1A25;
+}
+
+.pagination li:active {
+  background-color: #AB1A25;
+}
+
+.pagination li.selected {
+  background-color: #AB1A25;
+}
+
+.sectionHeading {
+    background-color: #AB1A25;
+}
+
+.portfolioDetails a {
+    color: #AB1A25;
+}
+
+.portfolioDetails a:hover {
+    background-color: #AB1A25;
+}
+
+.ui-tabs .ui-tabs-panel a:hover {
+  color: #AB1A25;
+}
+
+.tweet_list li a{
+   color: #AB1A25;
+}
+
+.tweet_list .tweet_time a:hover{
+  color: #AB1A25;
+}
+
+.jackbox-modal a{
+    color: #AB1A25;
+}
+
+.tipsy-inner {
+    background-color: #AB1A25;
+}
+
+/* #BLOG
+================================================== */
+.blog.large .blogDate {
+    background-color: #AB1A25;
+}
+
+.blog.large .excerptText h2:hover{
+  color: #AB1A25;
+}
+
+.blog.medium .blogDate {
+    background-color: #AB1A25;
+}
+
+.blog.medium .excerptText h2:hover {
+    color: #AB1A25;
+}
+
+.blog.post .blogDate {
+    background-color: #AB1A25;
+}
+
+.comment.author .commentHeader h3{
+	color: #AB1A25;
+}
+
+.comment.author img {
+  border-color: #AB1A25;
+}
+
+.comment .reply .report a:hover{
+  background: #AB1A25;
+}
+
+.searchform .searchbutton:hover {
+  border-color: #AB1A25;
+}
+
+.blogCategories ul li:hover  a{
+  color: #AB1A25;
+}
+
+/* #CONTACT FORM
+================================================== */
+#contact input.submit:hover, #commentform input[type="submit"]:hover, .wpcf7-submit:hover {
+    background: #AB1A25;
+	border-color: #AB1A25;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselWrapper.small .portfolio li:hover {
+    border-top: 5px solid #AB1A25;
+}
+
+.carouselWrapper.small .portfolio li:hover > article{
+    background-color: #AB1A25;
+    border-color: #AB1A25;
+}
+
+.carouselWrapper .portfolio li:hover {
+    border-top: 5px solid #AB1A25;
+}
+
+.carouselWrapper .portfolio li:hover > article{
+    background-color: #AB1A25;
+    border-color: #AB1A25;
+}
+
+.carouselWrapper.small .blog li .blogDate {
+    background-color: #AB1A25;
+}
+
+.carouselWrapper.small .blog li article h4:hover {
+    color: #AB1A25;
+}
+
+.carouselWrapper .blog li .blogDate {
+    background-color: #AB1A25;
+}
+
+.carouselWrapper .blog li article h4:hover {
+    color: #AB1A25;
+}
+
+
+/* ----------------------------------------------------------- */
+/*                        ICONS                                */
+/* ----------------------------------------------------------- */
+
+/* #TYPOGRAPHY
+================================================== */
+.dropCap1{
+  background: transparent url('../../images/icons/darkred/dropcap1.png') no-repeat;
+}
+
+.dropCap3{
+  background: transparent url('../../images/icons/darkred/dropcap3.png') no-repeat;
+}
+
+
+/* #REVOLUTION BANNER
+================================================== */
+.tp-bullets.simplebullets .bullet {
+    background: url('../../images/icons/darkred/sliderBullet.png') no-repeat top left;
+}
+
+.tp-bannertimer {
+    background: url('../../images/icons/darkred/timer.png');
+}
+
+/* #FLEX SLIDER
+================================================== */
+.flex-control-paging li a {
+	background: url('../../images/icons/darkred/sliderBullet.png') no-repeat top left;
+}
+
+
+/* #ISOTOPE
+================================================== */
+.isotopeFilters li {
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center 22px;
+}
+
+.portfolio .element:hover > .portfolioText:after{
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center bottom;
+}
+
+
+/* #MINI SLIDER
+================================================== */
+.miniNavBtn {
+  background: url('../../images/icons/darkred/miniSliderNav.png') 0 0 no-repeat;
+}
+
+.miniNavSelected{
+	background-position: 0 -10px;
+}
+
+
+/* #ACTION BOXES
+================================================== */
+.actionBox{
+  background: #f8f8f8 url('../../images/icons/darkred/arrowRight.png') no-repeat 0px center;
+}
+
+
+/* #SHORTCODES
+================================================== */
+.pricingTable.highlighted header:after {
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center top;
+}
+
+.button.readmore, .customButton.readmore { background: url('../../images/icons/darkred/arrowSmall.png') no-repeat center right; margin-right: 7px;}
+.button.back, .customButton.back { background: url('../../images/icons/darkred/back.png') no-repeat center right; margin-right: 10px;}
+
+.sidemenu li .arrow {
+  background: url('../../images/icons/darkred/arrowLeft.png') no-repeat 0 center;
+}
+
+.sidebar .tweet_avatar {
+  background: url('../../images/icons/darkred/twitterSidebar.png') no-repeat 0 3px;
+}
+
+
+/* #SCREEN
+================================================== */
+header .logo {
+}
+
+.sectionHeading:after {
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center top;
+}
+
+.buttonSliderClose{
+	background: url('../../images/icons/darkred/buttonsSliderClose.png') no-repeat left top;
+}
+
+.tipsy-arrow {
+    background: url('../../images/icons/darkred/arrowDown.png') no-repeat top left;
+}
+
+/* #BLOG
+================================================== */
+.comment .arrow{
+   background: url('../../images/icons/darkred/arrowDown.png') no-repeat  top left;
+}
+
+.searchform .searchbutton {
+  background: url('../../images/icons/darkred/searchIcon.png') no-repeat -1px -1px;
+}
+
+.blogCategories ul li .icon{
+   background: url('../../images/icons/darkred/arrowSquare.png') no-repeat left top;
+}
+
+
+/* #CAROUSEL
+================================================== */
+.carouselPrevious {
+    background: url('../../images/icons/darkred/previousArrow.png') no-repeat;
+}
+
+.carouselNext {
+    background: url('../../images/icons/darkred/nextArrow.png') no-repeat;
+}
+
+.carouselWrapper.small .portfolio li:hover > article:after{
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center bottom;
+}
+
+.carouselWrapper .portfolio li:hover > article:after{
+  background: url('../../images/icons/darkred/arrowDown.png') no-repeat center bottom;
+}
+
+
+
+

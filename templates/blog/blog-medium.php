@@ -1,0 +1,75 @@
+<?php
+/**
+Name: Blog Medium
+Type: Blog
+Sidebar: Right
+Img: blog-medium.png
+*/
+?>
+<section class="twelve columns row left-twenty <?php $fprinter->printSidebarPositionClass(); ?>">
+<?php 
+if ( have_posts() ) : 
+	while ( have_posts() ) : the_post();
+	$gallery = ffGalleryCollection::getGallery();
+?>
+   <!-- Start Blog item
+      ================================================== -->
+   <article class="blog medium row">
+      <?php $fprinter->printBlogMediumFeaturedImage(); ?>
+      
+         <?php $fprinter->printBlogDate(); ?>
+         
+      <!-- Excerpt
+         ================================================== -->
+      <section class="excerpt">
+         <div class="excerptText">
+            <?php $fprinter->printBlogTitle(); ?>
+            <?php $fprinter->printBlogMeta(); ?>
+            <?php $fprinter->printBlogContent(); ?>
+         </div>
+         <!-- buttons
+            ================================================== -->
+         <section class="buttons">
+            <ul class="customButtons">
+               <?php $fprinter->printBlogReadMore(); ?>
+               <li class="separator"></li>
+               <li class=" share">
+                   <div class="bdsharebuttonbox"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a hrf="#" class="bds_t163" data-cmd="t163" title="分享到网易微博"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+                   <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=86326610.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+               </li>
+            </ul>
+            <!-- slider
+               ================================================== -->
+            <section class="buttonsSlider">
+               <div class="buttonSliderShadow"></div>
+               <article class="socialShare">
+                  <p><?php echo fOpt::Get('translation', 'post-description-share'); ?></p>
+					<div class="addthis_toolbox_share">
+						<?php 
+							$fprinter->printShareButtons();
+						?>
+					</div>
+               </article>
+               <div class="buttonSliderShadowBottom"></div>
+               <div class="buttonSliderClose"></div>
+            </section>
+            <!-- End slider-->
+         </section>
+         <!-- End buttons-->
+      </section>
+      <!-- End Excerpt-->
+   </article>
+<?php
+	endwhile;
+else :
+	
+endif;
+?>  
+        
+        <?php 
+        	require get_template_directory().'/templates/pagination/pagination.php';
+        ?>    
+   <!-- End Blog item -->
+</section>
+<!-- End twelve columns -->
