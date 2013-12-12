@@ -472,8 +472,8 @@ color: #aaaaaa;
 
 .ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
 background: #fff;
-color: #aaa;
-
+color: #333;
+font-weight: bold;
 -webkit-transition: color 0.2s ease-out, background 0.2s ease-out;
 -moz-transition: color 0.2s ease-out, background 0.2s ease-out; 
 -o-transition: color 0.2s ease-out, background 0.2s ease-out; 
@@ -1262,7 +1262,7 @@ margin-top: 4px;
 
 
 .acc h4 {
-    color: #aaa;
+    color: #333;
     border: 1px solid #ddd;
     margin-bottom: 5px;
     cursor: pointer;
@@ -2638,9 +2638,12 @@ background: url('../images/tiles/footerMenuSeparator.gif') no-repeat  0px 5px;
 
 
 .isotopeFilters li a {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius:20px ;
   display: block;
   padding: 5px 10px;
-  background-color: #aaa;
+  background-color: #333;
   color: #fff;
   margin-left: 1px;
   
