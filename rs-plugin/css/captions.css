@@ -11,7 +11,7 @@ wiseguys tp-captions
     color: #fff;
     text-shadow: none;
     font-size: 20px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 5px 10px;
 	padding-bottom: 8px;
     margin: 0px;
@@ -26,7 +26,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 30px;
     line-height: 36px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 5px 10px;
     margin: 0px;
     border-width: 0px;
@@ -40,7 +40,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 50px;
     line-height: 50px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 5px 10px;
 	padding-top: 3px;
     margin: 0px;
@@ -55,7 +55,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 36px;
     line-height: 36px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 0px 4px;
     padding-top: 1px;
     margin: 0px;
@@ -98,7 +98,7 @@ wiseguys tp-captions
 .tp-caption.very_big_orange {
     position: absolute;
     color: #ff6600;
-	font-family: 'CabinSemiBold', sans-serif;
+	font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     text-shadow: none;
     font-size: 80px;
     line-height: 92px;
@@ -113,7 +113,7 @@ wiseguys tp-captions
 .tp-caption.very_very_big_orange {
     position: absolute;
     color: #ff6600;
-	font-family: 'CabinSemiBold', sans-serif;
+	font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     text-shadow: none;
     font-size: 100px;
     line-height: 92px;
@@ -131,7 +131,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 36px;
     line-height: 36px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 0px 4px;
     margin: 0px;
     border-width: 0px;
@@ -145,7 +145,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 36px;
     line-height: 36px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 4px 8px;
     margin: 0px;
 	background-color: #fff;
@@ -163,7 +163,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 20px;
     line-height: 20px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     padding: 4px 8px;
     margin: 0px;
 	background-color: #fff;
@@ -248,7 +248,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 20px;
     line-height: 20px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -324,7 +324,7 @@ wiseguys tp-captions
     text-shadow: none;
     font-size: 80px;
     line-height: 80px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     margin: 0px;
     border-width: 0px;
     border-style: none;
