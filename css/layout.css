@@ -688,7 +688,7 @@ nav form select{
     line-height: 68px;
     margin-bottom: 4px;
     margin-top: 13px;
-    font-family: 'CabinRegular', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     position: relative;
 }
 
@@ -906,7 +906,7 @@ nav form select{
 }
 
 .projectNav > ul > li{
-    font: 14px 'CabinMediumItalic', sans-serif; /*background of menu bar (default state)*/
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-style: italic;
     color: #777;
     display: block;
@@ -5980,7 +5980,7 @@ footer .socialIcons li:hover {
     display: inline-block;
 }
 .customButtons .button, .customButton {
-    font: 14px/27px 'CabinMediumItalic', sans-serif;
+    font: 14px/27px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-style: normal;
     padding-right: 27px;
 }
@@ -6361,7 +6361,7 @@ footer .socialIcons li:hover {
 }
 
 .sidemenu li a{
-    font: 14px 'CabinMediumItalic', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-style: normal;
     color: #777;
 }
@@ -6487,7 +6487,7 @@ footer .socialIcons li:hover {
 }
 
 .faq .question{
-    font: 14px 'CabinMediumItalic', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-style: normal;
     color: #777;
     cursor: pointer;

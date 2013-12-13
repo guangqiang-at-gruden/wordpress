@@ -52,7 +52,7 @@
 .jackbox-modal h2,
 .jackbox-modal h3 {
 	
-	font: 24px 'CabinRegular', sans-serif;
+	font: 24px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 	font-weight: normal;
 	color: #444;
 	
@@ -77,7 +77,7 @@
 /* small thumb tooltip text */
 .jackbox-thumb-tip-text {
 
-	font: 12px "CabinRegular", sans-serif;
+	font: 12px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 	text-transform: uppercase;
 	color: #FFF;
 	

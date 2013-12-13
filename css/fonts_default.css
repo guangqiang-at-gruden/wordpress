@@ -3,12 +3,7 @@ Font loading
 */
 
 @font-face {
-    font-family: 'CabinMediumItalic';
-    src: url('../fonts/Cabin-MediumItalic-webfont.eot');
-    src: url('../fonts/Cabin-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Cabin-MediumItalic-webfont.woff') format('woff'),
-         url('../fonts/Cabin-MediumItalic-webfont.ttf') format('truetype'),
-         url('../fonts/Cabin-MediumItalic-webfont.svg#CabinMediumItalic') format('svg');
+    font-family:"Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-style: normal;
 }
