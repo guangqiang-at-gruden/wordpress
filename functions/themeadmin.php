@@ -59,7 +59,7 @@ fieldset legend{ cursor:pointer;  font-size:13px;  color:#FFF; background:#2683A
 </style>
 <div class="wrap">
 	<div id="icon-options-general" class="icon32"><br></div><h2>ISHARE STUDIO</h2><br>
-	
+
 <div class="clearfix"></div>
 </div><!-- .wrap -->
 <?php } ?>

@@ -407,7 +407,7 @@ nav form select{
 ================================================== */
 
 .ddsmoothmenu{
-    font: 14px 'CabinSemiBold', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     background: #ffffff; /*background of menu bar (default state)*/
     width: auto;
@@ -546,7 +546,7 @@ nav form select{
 
 /* Sub level menu links style */
 .ddsmoothmenu ul li ul li a{
-    font: 12px 'CabinSemiBold', sans-serif;
+    font: 12px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     width: 145px; /*width of sub menus*/
     padding: 12px 5px 11px 20px;
@@ -764,7 +764,7 @@ nav form select{
     color: #333;
     margin-top: 8px;
     line-height: 16px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
 }
 
@@ -804,7 +804,7 @@ nav form select{
     color: #fff;
     line-height: 50px;
     text-transform: uppercase;
-    font: 14px 'CabinSemiBold', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
 
 }
@@ -1377,7 +1377,7 @@ nav form select{
     text-decoration: none;
     padding: 10px 15px;
     color: #333;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-size: 14px;
     height: 18px;
     font-weight: normal;
@@ -3438,7 +3438,7 @@ arrows
 
 
 #contact input.submit, #commentform input[type="submit"] {
-    font: 14px 'CabinSemiBold', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     line-height: 14px;
     font-weight: normal;
     display: inline-block;
@@ -3770,7 +3770,7 @@ span.wpcf7-list-item {
 }
 
 .wpcf7-submit {
-    font: 14px 'CabinSemiBold', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     line-height: 14px;
     font-weight: normal;
     display: inline-block;
@@ -4253,7 +4253,7 @@ div.wpcf7 textarea{margin-bottom:0}
     font-size: 26px;
     font-weight: normal;
     margin: 7px 0 1px 0;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 }
 
 .carouselWrapper.small .blog li .blogDate span {
@@ -4330,7 +4330,7 @@ div.wpcf7 textarea{margin-bottom:0}
     font-size: 26px;
     font-weight: normal;
     margin: 7px 0 1px 0;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family:"Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 }
 
 .carouselWrapper .blog li .blogDate span {
@@ -4619,7 +4619,7 @@ div.wpcf7 textarea{margin-bottom:0}
     font-weight: normal;
     position: relative;
     line-height: 24px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     margin:0;
 }
 
@@ -4720,7 +4720,7 @@ div.wpcf7 textarea{margin-bottom:0}
     font-size: 26px;
     font-weight: normal;
     margin: 7px 0 1px 0;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 
 }
 
@@ -4797,7 +4797,7 @@ div.wpcf7 textarea{margin-bottom:0}
     font-weight: normal;
     position: relative;
     line-height: 24px;
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family:"Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     margin:0;
 }
 
@@ -4902,7 +4902,7 @@ div.wpcf7 textarea{margin-bottom:0}
 }
 
 .commentHeader .number{
-    font-family: 'CabinSemiBold', sans-serif;
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-size: 18px;
     color: #ddd;
@@ -5781,7 +5781,7 @@ footer .socialIcons li:hover {
 /* #Normal Button
 ================================================== */
 .button {
-    font: 14px 'CabinSemiBold', sans-serif;
+    font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     line-height: 14px;
     font-weight: normal;
     display: inline-block;
@@ -6097,7 +6097,7 @@ footer .socialIcons li:hover {
 }
 
 .pricingTable .recurrence {
-    font: 18px 'CabinSemiBold', sans-serif;
+    font: 18px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     color: #777;
     font-weight: normal;
     margin-top: 54px;

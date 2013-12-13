@@ -8,12 +8,7 @@
 */
 
 @font-face {
-    font-family: 'CabinMediumItalic';
-    src: url('../fonts/Cabin-MediumItalic-webfont.eot');
-    src: url('../fonts/Cabin-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Cabin-MediumItalic-webfont.woff') format('woff'),
-         url('../fonts/Cabin-MediumItalic-webfont.ttf') format('truetype'),
-         url('../fonts/Cabin-MediumItalic-webfont.svg#CabinMediumItalic') format('svg');
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-style: normal;
 
@@ -21,12 +16,7 @@
 
 
 @font-face {
-    font-family: 'CabinSemiBold';
-    src: url('../fonts/Cabin-SemiBold-webfont.eot');
-    src: url('../fonts/Cabin-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Cabin-SemiBold-webfont.woff') format('woff'),
-         url('../fonts/Cabin-SemiBold-webfont.ttf') format('truetype'),
-         url('../fonts/Cabin-SemiBold-webfont.svg#CabinSemiBold') format('svg');
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-style: normal;
 
@@ -34,24 +24,14 @@
 
 
 @font-face {
-    font-family: 'CabinRegular';
-    src: url('../fonts/Cabin-Regular-webfont.eot');
-    src: url('../fonts/Cabin-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Cabin-Regular-webfont.woff') format('woff'),
-         url('../fonts/Cabin-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Cabin-Regular-webfont.svg#CabinRegular') format('svg');
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'LoraRegular';
-    src: url('../fonts/Lora-Regular-webfont.eot');
-    src: url('../fonts/Lora-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lora-Regular-webfont.woff') format('woff'),
-         url('../fonts/Lora-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Lora-Regular-webfont.svg#LoraRegular') format('svg');
+    font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
     font-style: normal;
 
@@ -124,7 +104,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #222;
-		font-family: 'CabinSemiBold', sans-serif;
+        font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
 		font-weight: normal;
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
