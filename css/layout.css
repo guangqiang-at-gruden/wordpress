@@ -717,14 +717,14 @@ nav form select{
 }
 
 .pagination li a:hover {
-    background: transparent;
+    background: transparent;dat777a-filter
 }
 
 .pagination li {
     float: left;
     display: block;
     padding: 5px 10px;
-    background-color: #aaa;
+    background-color: #666;
     color: #fff;
     margin-left: 1px;
     cursor: pointer;
@@ -806,6 +806,9 @@ nav form select{
     text-transform: uppercase;
     font: 14px "Century Gothic", "Lucida Grande", Helvetica, Arial, 微软雅黑;
     font-weight: normal;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius:20px ;
 
 }
 
@@ -3152,6 +3155,9 @@ arrows
 
 .teamMember img{
     width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px ;
 }
 
 .teamMemberHeader img{
@@ -3718,10 +3724,10 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
 
 span.wpcf7-not-valid-tip {
     position: absolute;
-    top: -20px;
+    top: -19px;
     left: 20%;
     z-index: 100;
-    border: 1px solid #d90000;
+    border: none;
     font-size: 10pt;
     width: 213px;
     padding: 5px;
@@ -7079,6 +7085,9 @@ p tags
     margin-right: 6px;
     margin-bottom: 6px;
     width: auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px ;
 }
 
 .textWidget img{
@@ -7195,6 +7204,9 @@ p tags
 .flexslider .slides img {
     width: 100%;
     display: block;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px ;
 }
 
 .flex-pauseplay span {
