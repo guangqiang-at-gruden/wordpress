@@ -380,6 +380,9 @@ input[type="submit"]:focus{
 
 .carouselWrapper.small .blog li .blogDate {
     background-color: #00A6A6;
+	 border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:15px ;
 }
 
 .carouselWrapper.small .blog li article h4:hover {

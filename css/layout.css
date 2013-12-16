@@ -733,6 +733,9 @@ nav form select{
     -o-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:15px ;
 }
 
 
@@ -3384,6 +3387,9 @@ arrows
 
 #respond #submit{
     margin-bottom: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:15px ;
 }
 
 
@@ -3416,6 +3422,9 @@ arrows
     margin: 0;
     padding: 7px 4px 5px 4px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px ;
 }
 
 
@@ -3594,6 +3603,9 @@ input[type="radio"] {
 
     #contact textarea, #commentform textarea{
         width: 493px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius:8px ;
     }
 
     .twelve.columns #commentform textarea{
@@ -3762,6 +3774,9 @@ div.wpcf7-mail-sent-ok {
 
 div.wpcf7 input{
     margin-bottom:0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px ;
 }
 
 div.wpcf7 .black{
@@ -3785,7 +3800,7 @@ span.wpcf7-list-item {
     float: right;
     padding: 20px;
     color: #fff;
-    background-color: #aaa;
+    background-color: #666;
     border: none;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
